@@ -1,0 +1,57 @@
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+ul {
+    width: 50%;
+    margin: 5rem auto;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.btns button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 1.3em;
+}
+
+.btns .complete {
+    margin-right: 5px;
+    background-color: red;
+    color: white;
+}
+
+.btns .complete:hover {
+    background-color: rgb(200, 0, 0);
+    cursor: pointer;
+}
+
+.btns .edit {
+    background-color: blue;
+    color: white;
+}
+
+.btns .edit:hover {
+    background-color: rgb(0, 0, 200);
+    cursor: pointer;
+}

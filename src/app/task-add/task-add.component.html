@@ -1,0 +1,9 @@
+<h1 class="heading">Add A Task</h1>
+<div class="container">
+
+    <h1>Name:</h1><input [(ngModel)]="newTask.name">
+    <br />
+    <h1>Description:</h1> <textarea rows="5" cols="30" [(ngModel)]="newTask.desc"></textarea>
+    <br />
+    <button (click)="addTask()">Add Task</button>
+</div>

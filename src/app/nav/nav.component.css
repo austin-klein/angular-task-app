@@ -1,0 +1,23 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    ;
+}
+
+nav a {
+    margin: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: background-color, color .1s;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white
+}
